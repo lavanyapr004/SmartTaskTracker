@@ -82,6 +82,7 @@ Copy code
   "summary": "You have 8 tasks. Most tasks are 'High' priority. 2 are due within 7 days. Busiest date: 2025-11-03 (3 tasks)."
 }
 
+
 🧰 Tech Stack
 Category	Technology
 Backend	Flask (Python)
