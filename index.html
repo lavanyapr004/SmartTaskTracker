@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Task Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Smart Task Tracker</h1>
+
+    <div class="task-form">
+      <input id="title" placeholder="Task Title">
+      <input id="desc" placeholder="Description (optional)">
+      <select id="priority">
+        <option>High</option>
+        <option>Medium</option>
+        <option>Low</option>
+      </select>
+      <input id="due_date" type="date">
+      <button id="addBtn">Add Task</button>
+    </div>
+
+    <div id="message"></div>
+
+    <div class="insights" id="insights">✨ Insights will appear here...</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Priority</th>
+          <th>Due Date</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="taskList"></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
