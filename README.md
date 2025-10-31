@@ -37,7 +37,6 @@ cd SmartTask-Tracker
 cd server
 python -m venv venv
 venv\Scripts\activate     # On Windows
-or
 source venv/bin/activate  # On macOS/Linux
 pip install -r requirements.txt
 python db_init.py         # Creates SQLite database
