@@ -83,16 +83,12 @@ Copy code
 }
 
 
+
 🧰 Tech Stack
 Category	Technology
 Backend	Flask (Python)
 Database	SQLite
-Frontend	HTML5, CSS3, JavaScript
+Frontend	HTML5, CSS3, 
 API	REST + JSON
 Environment	Localhost (CORS enabled)
 
-🧑‍💻 Author
-Name: Lavanya P R
-Course: BE Computer Science
-Institution: Don Bosco Institute of Technology
-Batch: 2026
