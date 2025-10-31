@@ -11,7 +11,7 @@ Table: 'tasks'
 
 | Column        | Type         | Description                                             |
 | ------------- | ------------ | ------------------------------------------------------- |
-| id`           | INTEGER (PK) | Auto-increment primary key                              |
+| id            | INTEGER (PK) | Auto-increment primary key                              |
 | title         | TEXT         | Task title (required)                                   |
 | description   | TEXT         | Optional detailed notes                                 |
 | priority      | TEXT         | Enum: Low, Medium, High; default Medium'                |
