@@ -12,22 +12,23 @@ It’s a lightweight **full-stack app** with:
 
 
 
- 🗂️ Project Structure
-SmartTask-Tracker/
-│
-├── server/ # Backend (Flask API)
-│ ├── main.py # Flask routes and API logic
-│ ├── db_init.py # Initializes SQLite DB
-│ ├── tasks.db # Database file (auto-created)
-│ └── requirements.txt # Python dependencies
-│
-└── client/ # Frontend (UI)
-├── index.html # Main webpage
-├── style.css # Modern, responsive styling
-└── app.js # Handles UI logic and API calls
+🗂️ Project Structure
+SmartTask-Tracker — The root folder containing both backend (server) and frontend (client) parts of the application.
+
+server — Contains all backend files related to Flask API.
+• main.py — Flask routes and core API logic.
+• db_init.py — Initializes and sets up the SQLite database.
+• tasks.db — SQLite database file (automatically created after initialization).
+• requirements.txt — List of required Python dependencies for backend setup.
+• pycache/ — Auto-generated Python bytecode cache.
+
+client — Contains all frontend files for the user interface.
+• index.html — Main HTML page for the task tracker dashboard.
+• style.css — Styling and layout for the web interface.
+• app.js — JavaScript logic handling API calls and UI updates.
 
 
- ⚙️ Setup Instructions
+⚙️ Setup Instructions
 
 🧩 1. Clone the Repository
 git clone https://github.com/yourusername/SmartTask-Tracker.git
@@ -80,6 +81,7 @@ Copy code
   "busiest_count": 3,
   "summary": "You have 8 tasks. Most tasks are 'High' priority. 2 are due within 7 days. Busiest date: 2025-11-03 (3 tasks)."
 }
+
 🧰 Tech Stack
 Category	Technology
 Backend	Flask (Python)
